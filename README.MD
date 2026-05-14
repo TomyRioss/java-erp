@@ -1,3 +1,13 @@
-Para ejecutar:
+# Java ERP
 
-1 . mkdir out 2. javac -d out $(find src -name "\*.java") 2. java -cp out Main
+## Requisitos
+
+- Java 21+
+
+## Ejecutar
+
+```bash
+mkdir out
+javac -d out $(find src -name "*.java")
+java -cp out Main
+```
